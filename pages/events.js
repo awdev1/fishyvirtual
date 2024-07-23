@@ -6,13 +6,13 @@ const Events = () => {
     <Layout>
       <Head>
         <title>Events - Virtual Airline</title>
-        <meta name="description" content="Stay tuned for upcoming events at our virtual airline." />
+        <meta name="description" content="Check out the latest events and updates from our virtual airline." />
       </Head>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
-        <div className="bg-white shadow-md rounded-lg p-6 text-center">
-          <h1 className="text-3xl font-bold text-yellow-600 mb-4">No Events at the Moment</h1>
-          <p className="text-gray-700">We currently don't have any events scheduled. Please check back later for updates.</p>
-        </div>
+      <div className="min-h-screen bg-gray-100 p-4">
+        <h1 className="text-4xl font-bold text-yellow-600 mb-6 text-center">Upcoming Events</h1>
+        <p className="text-lg text-gray-700 text-center">
+          There are no events scheduled at the moment. Please check back later for updates.
+        </p>
       </div>
     </Layout>
   );

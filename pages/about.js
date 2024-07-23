@@ -5,22 +5,16 @@ const About = () => {
   return (
     <Layout>
       <Head>
-        <title>About Us - Virtual Airline</title>
-        <meta name="description" content="Learn more about Virtual Airline, our mission, and the team behind the scenes." />
+        <title>About - Virtual Airline</title>
+        <meta name="description" content="Learn more about our virtual airline and our mission." />
       </Head>
-      <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-        <h1 className="text-4xl font-bold text-yellow-600 mb-4">About Us</h1>
-        <p className="text-lg text-gray-700 mb-4">
-          Welcome to Virtual Airline! We are passionate about providing an immersive and realistic virtual flying experience.
+      <div className="min-h-screen bg-gray-100 p-4">
+        <h1 className="text-4xl font-bold text-yellow-600 mb-6 text-center">About Us</h1>
+        <p className="text-lg text-gray-700 text-center">
+          Welcome to our virtual airline. We are dedicated to providing an immersive and enjoyable flight simulation experience. Our team is passionate about aviation and committed to delivering exceptional service and a sense of community.
         </p>
-        <p className="text-lg text-gray-700 mb-4">
-          Our team is composed of experienced aviation enthusiasts who work tirelessly to ensure the best experience for our users.
-        </p>
-        <p className="text-lg text-gray-700 mb-4">
-          Whether you're here to explore our fleet, join our community, or participate in events, we strive to offer a platform that meets your needs and exceeds your expectations.
-        </p>
-        <p className="text-lg text-gray-700">
-          Thank you for visiting Virtual Airline. We hope you enjoy your time with us!
+        <p className="text-lg text-gray-700 text-center mt-4">
+          Stay tuned for more updates and information about our events and flights.
         </p>
       </div>
     </Layout>
