@@ -1,0 +1,19 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+
+.transition-transform {
+    transition: transform 0.3s ease;
+  }
+  
+  .transform-gone {
+    transform: translateX(-100%);
+  }
+  
+  .transform-enter {
+    transform: translateX(0);
+  }
+  
