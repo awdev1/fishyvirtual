@@ -12,7 +12,7 @@ const staffMembers = [
     id: 2,
     name: 'Alastair V',
     role: 'Director',
-    image: 'https://cdn.discordapp.com/avatars/983046931708268615/8c34e9e347a99299039c77ca62fb8e96.png?size=512',
+    image: 'https://cdn.discordapp.com/avatars/983046931708268615/a60ed20d41fd06d835250920d4bbb32d.webp?size=128',
   },
   {
     id: 3,
@@ -32,7 +32,12 @@ const staffMembers = [
     role: 'Tech',
     image: 'https://cdn.discordapp.com/avatars/1072581197454123080/087236e93204d2b13eb455c82176340b.png?size=512',
   },
-  // Add more staff members as needed
+  {
+    id: 6,
+    name: 'Aaron',
+    role: 'Tech',
+    image: 'https://cdn.discordapp.com/avatars/717412351451594852/cd417d119e1c023bf09bd7c75c24942f.webp?size=128',
+  }
 ];
 
 const Staff = () => {

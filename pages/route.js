@@ -6,17 +6,24 @@ const Fleet = () => {
     <Layout>
       <Head>
         <title>Fleet - Virtual Airline</title>
-        <meta name="description" content="Explore our fleet of aircraft." />
+        <meta name="description" content="Discover our modern and diverse fleet of aircraft. Explore the details and specifications of each model in our fleet." />
       </Head>
-      <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
-        <img
-          src="https://cdn.discordapp.com/attachments/1265234902731722939/1265266398968549517/image.png?ex=66a0e2a9&is=669f9129&hm=d79e2462b12817bd5e18d15d5299b551ce4bc1de95c04cd63c03803a89c98b45&" // Replace with your actual image URL
-          alt="Fleet"
-          className="w-full max-w-4xl h-auto mb-6 object-cover"
-        />
-        <a href="https://newsky.app/airline/fsh/operations" className="bg-yellow-600 text-white hover:bg-yellow-700 transition duration-300 ease-in-out px-6 py-3 rounded-md">
-          Learn More about routes 
-        </a>
+      <div className="min-h-screen bg-gradient-to-r from-blue-500 to-indigo-600 flex flex-col items-center justify-center p-4 relative">
+        <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
+        <div className="z-10 flex flex-col items-center">
+          <img
+            src="https://i.imgur.com/wgiG8EM.jpeg" 
+            alt="Fleet"
+            className="w-full max-w-4xl h-auto mb-6 object-cover rounded-md shadow-lg"
+          />
+          <h1 className="text-3xl font-bold mb-4 text-white">Our Fleet</h1>
+          <p className="text-lg text-white mb-6 text-center">
+            Explore our state-of-the-art fleet, equipped with the latest technology to ensure a very safe and comfortable journey. Each aircraft in our fleet is meticulously maintained and offers a superior flying experience.
+          </p>
+          <a href="https://newsky.app/airline/fsh/operations" className="bg-yellow-600 text-white hover:bg-yellow-700 transition duration-300 ease-in-out px-6 py-3 rounded-md shadow-md">
+            Learn More About Our Routes
+          </a>
+        </div>
       </div>
     </Layout>
   );

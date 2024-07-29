@@ -18,7 +18,12 @@ export default function Home() {
           </a>
           <a href="https://discord.gg/EuESVeSx" target="_blank" rel="noopener noreferrer">
             <button className="bg-blue-600 text-white hover:bg-blue-700 transition duration-300 ease-in-out px-6 py-3 rounded-md font-medium">
-              Join Discord
+              Join our Discord
+            </button>
+            </a>
+          <a href="https://newsky.app/airline/FSH" target="_blank" rel="noopener noreferrer">
+            <button className="bg-blue-600 text-white hover:bg-blue-700 transition duration-300 ease-in-out px-6 py-3 rounded-md font-medium">
+              Join our Airline
             </button>
           </a>
         </div>
