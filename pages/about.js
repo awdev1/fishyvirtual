@@ -13,7 +13,7 @@ const About = () => {
           <div className="p-8">
             <h1 className="text-4xl font-bold text-yellow-600 mb-6 text-center">About Us</h1>
             <p className="text-lg text-gray-700 text-center mb-4">
-              Welcome to Fish 'N Chips (known as Fishy Virtual). We are dedicated to providing an immersive and enjoyable flight simulation experience. Our team is passionate about aviation and committed to delivering exceptional service and a sense of community.
+              Welcome to Fish 'N Chips (legally known as Fishy Virtual). We are dedicated to providing an immersive and enjoyable flight simulation experience. Our team is passionate about aviation and committed to delivering exceptional service and a sense of community.
             </p>
             <p className="text-lg text-gray-700 text-center">
               Stay tuned for more updates and information about our events and flights.
