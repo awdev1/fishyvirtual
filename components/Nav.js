@@ -17,6 +17,7 @@ const Nav = () => {
     { href: '/fleet', label: 'Fleet' },
     { href: '/route', label: 'Routes' },
     { href: '/events', label: 'Events' },
+    { href: '/joinus', label: 'Join Us' },
   ];
 
   return (

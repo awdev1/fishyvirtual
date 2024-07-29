@@ -47,7 +47,7 @@ const Staff = () => {
         <title>Staff - Virtual Airline</title>
         <meta name="description" content="Meet the dedicated staff of our virtual airline." />
       </Head>
-      <div className="min-h-screen bg-gray-100 p-4">
+      <div className="relative min-h-screen bg-gradient-to-r from-blue-500 to-indigo-600 p-4">
         <h1 className="text-4xl font-bold text-custom-yellow mb-6 text-center">Meet Our Staff</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {staffMembers.map((member) => (
