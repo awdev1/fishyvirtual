@@ -21,7 +21,7 @@ const Nav = () => {
   ];
 
   return (
-    <nav className="bg-yellow-500 bg-opacity-75 backdrop-blur-md fixed w-full z-10">
+    <nav className="bg-yellow-600 bg-opacity-75 backdrop-blur-md fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -37,7 +37,7 @@ const Nav = () => {
                 <Link key={item.href} href={item.href} legacyBehavior>
                   <a
                     className={`text-white hover:bg-yellow-600 px-3 py-2 rounded-md text-sm font-medium ${
-                      router.pathname === item.href ? 'bg-yellow-600' : ''
+                      router.pathname === item.href ? 'bg-yellow-700' : ''
                     }`}
                   >
                     {item.label}
